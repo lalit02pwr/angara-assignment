@@ -16,7 +16,7 @@ body{
   box-shadow: 1px 2px 3px #9e9e9ec7;
 }
 #myHea{
-	position: sticky;
+	padding-top: 17px;
 }
 .header{
 	min-height: 100px;
@@ -43,6 +43,7 @@ body{
     padding-top: 6px;
 }
 .main-head-right {
+    flex-wrap: wrap;
     display: flex;
     width: 216px;
     justify-content: space-around;
@@ -53,8 +54,6 @@ body{
 }
 .nav-bar-list {
     list-style-type: none;
-    list-style-type: none;
-    padding: 0px 150px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -289,7 +288,12 @@ span.arrow-img {
     display: inline-block;
     cursor: pointer;
 }
-
+@media screen and (max-width: 450px) {
+  .slected-item-img-size {
+    width: 250px;
+    height: 250px;
+  }
+}
 
 
 
