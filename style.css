@@ -278,6 +278,9 @@ span.arrow-img {
     margin: 8px 0 14px;
     text-transform: capitalize;
 }
+.slected-item-img {
+    padding: 57px 0 0 53px;
+}
 .slide-size{
 	width: 40px;
     height: 40px;
@@ -293,6 +296,13 @@ span.arrow-img {
     width: 250px;
     height: 250px;
   }
+  #myHea {
+    width: 90%;
+  }
+  .main-containt-right {
+    width: 90%;
+    padding: 10px;
+ }
 }
 
 
